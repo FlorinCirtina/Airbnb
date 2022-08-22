@@ -17,9 +17,6 @@ public class BasePage {
         String url = "https://www.airbnb.com/";
         driver.get(url);
         LOG.info("Open browser");
-
-//        Dimension dimension = new Dimension(1366, 768);
-//        driver.manage().window().setSize(dimension);
         driver.manage().window().maximize();
     }
 
